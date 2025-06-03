@@ -4,6 +4,7 @@ A step by step guide on running delphinus zkWASM prover and earn credits.
 Official Prover Repository
 
 #Requirement
+
 GPU: min. RTX 4090
 RAM: >100 GB
 Nvidia CUDA, Docker
@@ -11,19 +12,15 @@ Local GPU PC Or Cloud GPU with VM ubuntu template
 Ubuntu ( Windows users can Install Ubuntu too)
 
 #Rewards
+
 TGE in Q4. Provers based on their performance share 3% of token allocation at TGE.
 If the liveness-time is 90%+ and your proving speed keeps stable, then there will be around estimated $100+/month + base * number of proofs you have generated.
 From the current estimate of the overall provers, the minimal reward of a certified node is around $200/month. the maximal is $380.
 
 
 #Notes
+
 The most profittable way is to use Local PC GPUs.
-I have tested it on a cloud GPU: RTX 4090 - 24GB vRAM ($0.41/hr in Vast.ai) and it's so fast with 30 tasks/day.
-In my case, it might even NOT be profitable at TGE, I just love experiment.
-Team says only supports 4090 but you might need to test with lower GPUs if you want. I believe 24GB vRAM is 100% needed.
-If you run on Cloud GPU  like Vast.ai, you need to install a VM Ubuntu template. and NOT CUDA or Pytorch.
-Since the Prover installation is using Docker, then CUDA or Pytorch templates for Cloud GPUs is not possible because they also run your instance in a Docker and you can't run Prover Docker inside your instance Docker.
-Team will provide a Rust installation Method in 2 months so we can find cheaper GPU cloud instances easier.
 
 #Installation
 
